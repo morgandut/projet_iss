@@ -1,0 +1,29 @@
+body {
+    filter: contrast(90%) brightness(80%) grayscale(30%) sepia(10%) blur(0.5px);
+    background-color: #000;
+    color: #0f0; /* Couleur de texte verte */
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+#consoleInput {
+    padding: 5px;
+    font-size: 16px;
+    border: none; /* Supprimer la bordure de l'input */
+    background-color: black; /* Fond noir */
+    color: lime; /* Texte vert */
+}
+
+#consoleLabel {
+    display: inline-block;
+    width: 20px; /* Ajuster la largeur selon vos préférences */
+}
+
+#consoleOutput {
+    margin-top: 10px;
+    text-align: left;
+    white-space: pre-line;
+}
+.cathode-effect {
+    color: #ff3333 !important;
+}
