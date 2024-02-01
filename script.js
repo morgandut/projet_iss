@@ -73,7 +73,7 @@ setTimeout(function() {
     consoleOutput.innerHTML = "";
 }, 500); // Effacez après un délai de 0.5 seconde
 } else if (inputValue === "carte") {
-consoleOutput.innerHTML += '<img src="iss.jpg" alt="Carte">\n';
+consoleOutput.innerHTML += '<img src="./iss.jpg" alt="Carte">\n';
 } else if (inputValue === "hell") {
 // Ajouter la classe pour changer la couleur du texte en rouge
 consoleOutput.classList.add("cathode-effect", "red-text");
